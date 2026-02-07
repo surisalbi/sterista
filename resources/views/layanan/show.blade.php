@@ -285,7 +285,7 @@
                     <i class="ph ph-plus"></i> 
                     Keranjang
                 </a>
-                <a href="checkout.html" class="btn btn-primary rounded-full w-full">
+                <a href="{{ route('checkout') }}" class="btn btn-primary rounded-full w-full">
                     <i class="ph ph-shopping-cart"></i> 
                     Pesan
                 </a>
