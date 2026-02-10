@@ -53,12 +53,12 @@
     </div>
     <div class="">
         <div class="product-info xs:px-6 px-3 py-4 bg-n0 dark:bg-dark2 mb-4">
-            <div class="flex justify-between mb-1">
+            <h5 class="product-title text-n900 dark:text-n0 font-normal">Bersih Rumah</h5>
+            <div class="flex justify-between mb-0">
                 <div class="">
                     <div class="flex items-center gap-4">
-                        <span class="product-price text-primary dark:text-primary300 text-lg font-semibold">
-                            <span class="currency">Rp</span>
-                            <span class="amount">125.000</span>
+                        <span class="product-price text-primary dark:text-primary300 font-semibold">
+                            <span class="text-xs">Rp</span>125.000</span>
                         </span>
                         <span class="product-price-discount text-n500 dark:text-n400 line-through">
                             <span class="currency">Rp</span>
@@ -67,51 +67,50 @@
                     </div>
                 </div>
                 <div class="flext item-center">
-                    <span class="text-n500 dark:text-n400 text-sm">45x dipesan</span>
-                    <button class="btn-wishlist add-to-wishlist text-n500 dark:text-n400 text-sm">
+                    <span class="text-n500 dark:text-n400 text-xs">45x dipesan</span>
+                    <button class="btn-wishlist add-to-wishlist text-n500 dark:text-n400 text-xs">
                         <i class="ph ph-heart"></i>
                     </button>
                 </div>
             </div>
-            <h5 class="product-title text-n900 dark:text-n0 text-lg font-semibold mb-2">Bersih Rumah</h5>
-            <div class="product-rating mb-3">
-                <span class="product-rating-count text-n900 dark:text-n0 text-sm">4.9</span>
+            
+            <div class="product-rating mt-0">
+                <span class="product-rating-count text-n900 dark:text-n0 text-xs">4.9</span>
                 <span class="product-rating-stars text-accent-1">
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph ph-star"></i>
+                    <i class="text-xs ph-fill ph-star"></i>
+                    <i class="text-xs ph-fill ph-star"></i>
+                    <i class="text-xs ph-fill ph-star"></i>
+                    <i class="text-xs ph-fill ph-star"></i>
+                    <i class="text-xs ph-fill ph-star"></i>
                 </span>
             </div>
             <div class="product-quantity-wrapper flex items-center justify-between gap-2 mb-4">
                 <span class="product-quantity-title text-n900 dark:text-n0 text-base font-semibold">&nbsp;</span>
                 <div class="product-quantity flex items-center">
-                    <button class="decreaseQuantity w-10 h-8 rounded border border-n300 dark:border-n700 bg-n0 dark:bg-dark2 text-n900 dark:text-n0 text-xl inline-flex items-center justify-center">
+                    <button class="decreaseQuantity w-10 h-8 rounded border border-n300 dark:border-n700 bg-n0 dark:bg-dark2 text-n900 dark:text-n0 inline-flex items-center justify-center">
                         <i class="ph ph-minus"></i>
                     </button>
-                    <input readonly="readonly" value="1" class="quantityInput w-10 h-8 text-center border border-n300 dark:border-n700 bg-n0 dark:bg-dark2 text-n900 dark:text-n0 mx-[-1px]">
-                    <button class="increaseQuantity w-10 h-8 rounded border border-n300 dark:border-n700 bg-n0 dark:bg-dark2 text-n900 dark:text-n0 text-xl inline-flex items-center justify-center">
+                    <input readonly="readonly" value="1" class="quantityInput w-10 h-8 text-center border border-n300 dark:border-n700 text-sm bg-n0 dark:bg-dark2 text-n900 dark:text-n0 mx-[-1px]">
+                    <button class="increaseQuantity w-10 h-8 rounded border border-n300 dark:border-n700 bg-n0 dark:bg-dark2 text-n900 dark:text-n0 inline-flex items-center justify-center">
                         <i class="ph ph-plus"></i>
                     </button>
                 </div>
             </div>
             <div class="product-selection-wrapper flex items-center justify-between border-t border-b border-n300 dark:border-n700 py-3 relative after:absolute after:top-0 after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-[1px] after:h-full after:bg-n300 after:dark:bg-n700">
                 <div class="product-color-selection flex items-center justify-center w-full gap-2">
-                    <span class="text-n500 dark:text-n300 text-base">Sub Layanan:</span>
                     <div class="choices-no-style">
-                        <select name="color" id="product-color" class="choices text-n900 dark:text-n0 text-base font-semibold">
-                            <option value="black" selected="selected">Rumah Kecil</option>
+                        <select name="color" id="product-color" class="choices text-sm text-n900 dark:text-n0 text-base font-normal">
+                            <option value="" disabled selected>Pilih Sub Layanan</option>
+                            <option value="black">Rumah Kecil</option>
                             <option value="blue">Rumah Sedang</option>
                             <option value="red">Rumah Besar</option>
                         </select>
                     </div>
                 </div>
                 <div class="product-size-selection flex items-center justify-center w-full gap-2">
-                    <span class="text-n500 dark:text-n300 text-base">Harga:</span>
                     <div class="choices-no-style">
-                        <span class="choices text-n900 dark:text-n0 text-base font-semibold">
-                            Rp100.000
+                        <span class="choices text-n900 dark:text-n0 text-sm text-base font-normal">
+                            Rp0
                         </span>
                     </div>
                 </div>
@@ -126,7 +125,7 @@
                         </div>
                         <div class="">
                             <h6 class="seller-name text-n900 dark:text-n0 font-semibold">Mayaza Clean</h6>
-                            <span class="seller-location text-n500 dark:text-n400 text-sm"><i class="ph ph-map-pin"></i> Cilegon</span>
+                            <span class="seller-location text-n500 dark:text-n400 text-xs"><i class="ph ph-map-pin"></i> Cilegon</span>
                         </div>
                     </div>
                     <div class="">
@@ -138,7 +137,7 @@
                 <div class="wa_accordion-wrapper flex flex-col gap-4">
                     <div class="wa_accordion-item w-full rounded-xl overflow-hidden transition-all duration-300 ease-in-out bg-n0 dark:bg-dark3 shadow-2 show">
                         <div class="wa_accordion-header flex items-center justify-between p-4 cursor-pointer">
-                            <h5 class="wa_accordion-title text-n900 dark:text-n0 font-semibold flex items-center gap-3">
+                            <h5 class="wa_accordion-title text-n900 dark:text-n0 font-normal flex items-center gap-3">
                                 <span class="flex items-center justify-center">
                                     <i class="ph ph-clipboard-text"></i>
                                 </span>
@@ -148,13 +147,13 @@
                         </div>
                         <div class="wa_accordion-content">
                             <div class="wa_accordion-content-wrapper p-4 pt-0">
-                                <div class="wa_accordion-description text-n500 dark:text-n300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</div>
+                                <div class="wa_accordion-description text-sm text-n500 dark:text-n300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</div>
                             </div>
                         </div>
                     </div>
                     <div class="wa_accordion-item w-full rounded-xl overflow-hidden transition-all duration-300 ease-in-out bg-n0 dark:bg-dark3 shadow-2">
                         <div class="wa_accordion-header flex items-center justify-between p-4 cursor-pointer">
-                            <h5 class="wa_accordion-title text-n900 dark:text-n0 font-semibold flex items-center gap-3">
+                            <h5 class="wa_accordion-title text-n900 dark:text-n0 font-normal flex items-center gap-3">
                                 <span class="flex items-center justify-center">
                                     <i class="ph ph-star"></i>
                                 </span>
@@ -176,7 +175,7 @@
         <div class="relative mb-6">
             <div class="featured-product-wrapper pl-6">
                 <div class="flex items-center justify-between mb-4 pr-6">
-                    <h4 class="font-bold text-n900 dark:text-n0">Layanan Serupa</h4>
+                    <h5 class="font-normal text-n900 dark:text-n0">Layanan Serupa</h5>
                 </div>
                 <div class="swiper featured-product-slider">
                     <div class="swiper-wrapper">
@@ -192,16 +191,23 @@
                                     </div>
                                 </div>
                                 <div class="shop-grid-card-content p-2 w-full">
-                                    <h4 class="text-base font-semibold text-n900 dark:text-n0">
+                                    <h4 class="text-base font-normal text-sm text-n900 dark:text-n0">
                                         <a href="{{ route('layanan.show', encrypt(1)) }}">Bersih Rumah</a>
                                     </h4>
-                                    <div class="flex items-center gap-1 mb-1">
-                                        <span class="icon text-accent-1"><i class="ph-fill ph-star"></i></span><span class="text-sm text-n900 dark:text-n0">5.0 <span class="text-n500 dark:text-n300">67 dipesan</span></span>
+                                    <div class="flex items-center gap-1">
+                                        <span class="text-base font-semibold text-primary text-n900 dark:text-n0">
+                                            <span class="text-xs">Rp</span>145.000
+                                        </span>
                                     </div>
                                     <div class="flex items-center justify-between w-full">
                                         <div class="flex items-center gap-1">
-                                            <span class="text-base font-medium text-n900 dark:text-n0">Rp145.000 <small class="text-n500 dark:text-n300" style="display: block">Mazaya Clean</small>
-                                            </span>
+                                            <div class="flex rounded-sm box-rating">
+                                                <span class="icon text-accent-1">
+                                                    <i class="text-xs ph-fill ph-star mr-1"></i>
+                                                </span>
+                                                <span class="text-xs text-n900 dark:text-n0">5.0</span>
+                                            </div>
+                                            <span class="text-xs text-n500 dark:text-n300">67 dipesan</span>
                                         </div>
                                         <div class="">
                                             <button class="btn btn-wishlist">
@@ -222,14 +228,23 @@
                                     </div>
                                 </div>
                                 <div class="shop-grid-card-content p-2 w-full">
-                                    <h4 class="text-base font-semibold text-n900 dark:text-n0"><a href="#">Bersih Kosan</a></h4>
-                                    <div class="flex items-center gap-1 mb-1">
-                                        <span class="icon text-accent-1"><i class="ph-fill ph-star"></i></span><span class="text-sm text-n900 dark:text-n0">4.8 <span class="text-n500 dark:text-n300">78 dipesan</span></span>
+                                    <h4 class="text-base font-normal text-sm text-n900 dark:text-n0">
+                                        <a href="{{ route('layanan.show', encrypt(1)) }}">Bersih Kosan</a>
+                                    </h4>
+                                    <div class="flex items-center gap-1">
+                                        <span class="text-base font-semibold text-primary text-n900 dark:text-n0">
+                                            <span class="text-xs">Rp</span>65.000
+                                        </span>
                                     </div>
                                     <div class="flex items-center justify-between w-full">
                                         <div class="flex items-center gap-1">
-                                            <span class="text-base font-medium text-n900 dark:text-n0">Rp65.000 <small class="text-n500 dark:text-n300" style="display: block">Ayu Berkah</small>
-                                            </span>
+                                            <div class="flex rounded-sm box-rating">
+                                                <span class="icon text-accent-1">
+                                                    <i class="text-xs ph-fill ph-star mr-1"></i>
+                                                </span>
+                                                <span class="text-xs text-n900 dark:text-n0">5.0</span>
+                                            </div>
+                                            <span class="text-xs text-n500 dark:text-n300">34 dipesan</span>
                                         </div>
                                         <div class="">
                                             <button class="btn btn-wishlist">
@@ -250,14 +265,23 @@
                                     </div>
                                 </div>
                                 <div class="shop-grid-card-content p-2 w-full">
-                                    <h4 class="text-base font-semibold text-n900 dark:text-n0"><a href="#">Deep Cleaning Toilet</a></h4>
-                                    <div class="flex items-center gap-1 mb-1">
-                                        <span class="icon text-accent-1"><i class="ph-fill ph-star"></i></span><span class="text-sm text-n900 dark:text-n0">4.9 <span class="text-n500 dark:text-n300">57 dipesan</span></span>
+                                    <h4 class="text-base font-normal text-sm text-n900 dark:text-n0">
+                                        <a href="{{ route('layanan.show', encrypt(1)) }}">Deep Cleaning Toilet</a>
+                                    </h4>
+                                    <div class="flex items-center gap-1">
+                                        <span class="text-base font-semibold text-primary text-n900 dark:text-n0">
+                                            <span class="text-xs">Rp</span>75.000
+                                        </span>
                                     </div>
                                     <div class="flex items-center justify-between w-full">
                                         <div class="flex items-center gap-1">
-                                            <span class="text-base font-medium text-n900 dark:text-n0">Rp75.000 <small class="text-n500 dark:text-n300" style="display: block">Riska Clean</small>
-                                            </span>
+                                            <div class="flex rounded-sm box-rating">
+                                                <span class="icon text-accent-1">
+                                                    <i class="text-xs ph-fill ph-star mr-1"></i>
+                                                </span>
+                                                <span class="text-xs text-n900 dark:text-n0">4.9</span>
+                                            </div>
+                                            <span class="text-xs text-n500 dark:text-n300">93 dipesan</span>
                                         </div>
                                         <div class="">
                                             <button class="btn btn-wishlist">

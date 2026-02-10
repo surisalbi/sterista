@@ -7,7 +7,7 @@
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1daeff"/>
     <link rel="shortcut icon" href="{{ asset('assets/images/logo.png') }}" type="image/x-icon"/>
     <title>{{ $title }}</title>
-    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('assets/css/main.css?v=1.1') }}" rel="stylesheet"/>
 </head>
 <body class="min-h-screen">
     @yield('content')
