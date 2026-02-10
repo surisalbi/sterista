@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AddressController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\HomeController;
@@ -23,3 +24,4 @@ Route::get('/layanan/{id}', [LayananController::class, 'show'])->name('layanan.s
 Route::get('/cart', [CartController::class, 'index'])->name('cart');
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::get('/payment', [PaymentController::class, 'index'])->name('payment');
+Route::get('/address', [AddressController::class, 'list'])->name('address.list');

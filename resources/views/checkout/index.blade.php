@@ -24,7 +24,7 @@
                     <span class="ph ph-house text-sm"></span> 
                     <span>Alamat</span>
                 </div>
-                <a href="shipping-address.html" class="text-xs text-accent-2 font-normal">Ubah</a>
+                <a href="{{ route('address.list') }}" class="text-xs text-accent-2 font-normal">Ubah</a>
             </div>
             <div class="flex items-start justify-between gap-3">
                 <div class="flex items-start gap-3">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <a href="edit-address.html" class="text-xl text-n500 dark:text-n300"><i class="ph ph-pencil-line"></i></a>
+                    <a href="#" class="text-xl text-n500 dark:text-n300"><i class="ph ph-pencil-line"></i></a>
                 </div>
             </div>
         </div>
